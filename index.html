@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
 
-<body>
+  <body>
+    <div settings="test" class="container">
+      <div class="need-slider_container">
+        <button class="need-slider_prev"></button>
 
-<div class="container">
+        <div class="need-slider_wrapper">
+          <div class="need-slider">
+            <div class="need-slide">
+              <img class="need-slide__img" src="./img/1.webp" alt="" />
+              <div class="need-slide__text">Lorem ipsum</div>
+            </div>
 
-<div class="slider_container">
+            <div class="need-slide">
+              <img class="need-slide__img" src="./img/2.webp" alt="" />
+              <div class="need-slide__text">Lorem pipsum</div>
+            </div>
 
-  <button class="slider_prev"></button>
+            <div class="need-slide">
+              <img class="need-slide__img" src="./img/3.webp" alt="" />
+              <div class="need-slide__text">Lorem possum</div>
+            </div>
+          </div>
+        </div>
 
-  <div class="slider_wrapper">
-
-    <div class="slider">
-
-      <div class="slide">
-        <img class="slide__img" src="./img/1.webp" alt="">
-        <div class="slide__text">Lorem ipsum</div>
+        <button class="need-slider_next"></button>
       </div>
-
-      <div class="slide">
-        <img class="slide__img" src="./img/2.webp" alt="">
-        <div class="slide__text">Lorem pipsum</div>
-      </div>
-
-      <div class="slide">
-        <img class="slide__img" src="./img/3.webp" alt="">
-        <div class="slide__text">Lorem possum</div>
-      </div>
-
     </div>
 
-  </div>
-
-  <button class="slider_next"></button>
-
-</div>
-
-</div>
- 
-
-<script
-  src="https://code.jquery.com/jquery-3.6.1.min.js"
-  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-  crossorigin="anonymous"></script>
-  <script src="./index.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
